@@ -1,0 +1,103 @@
+﻿{
+    "is_menu_open": 1,
+    "selfmenu_info": {
+        "button": [
+            {
+                "name": "按钮属性1",
+                "sub_button": {
+                    "list": [
+                        {
+                            "type": "pic_photo_or_album",
+                            "name": "第一列1",
+                            "key": "1.1"
+                        },
+                        {
+                            "type": "click",
+                            "name": "第一列2",
+                            "key": "1.2"
+                        },
+                        {
+                            "type": "click",
+                            "name": "第一列3",
+                            "key": "1.3"
+                        },
+                        {
+                            "type": "click",
+                            "name": "第一列4",
+                            "key": "1.4"
+                        },
+                        {
+                            "type": "click",
+                            "name": "第一列5",
+                            "key": "1.5"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "按钮属性2",
+                "sub_button": {
+                    "list": [
+                        {
+                            "type": "click",
+                            "name": "第二列1",
+                            "key": "2.1"
+                        },
+                        {
+                            "type": "click",
+                            "name": "第二列2",
+                            "key": "2.2"
+                        },
+                        {
+                            "type": "click",
+                            "name": "第二列3",
+                            "key": "2.3"
+                        },
+                        {
+                            "type": "click",
+                            "name": "第二列4",
+                            "key": "2.4"
+                        },
+                        {
+                            "type": "click",
+                            "name": "第二列5",
+                            "key": "2.5"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "第三列",
+                "sub_button": {
+                    "list": [
+                        {
+                            "type": "click",
+                            "name": "第三列1",
+                            "key": "3.1"
+                        },
+                        {
+                            "type": "click",
+                            "name": "第三列2",
+                            "key": "3.2"
+                        },
+                        {
+                            "type": "click",
+                            "name": "第三列3",
+                            "key": "3.3"
+                        },
+                        {
+                            "type": "click",
+                            "name": "第三列4",
+                            "key": "3.4"
+                        },
+                        {
+                            "type": "click",
+                            "name": "第三列5",
+                            "key": "3.5"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

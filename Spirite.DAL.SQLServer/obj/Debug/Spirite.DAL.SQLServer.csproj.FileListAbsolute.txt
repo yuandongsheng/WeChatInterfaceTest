@@ -1,0 +1,4 @@
+E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Spirite.DAL.SQLServer\bin\Debug\Spirite.DAL.SQLServer.dll
+E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Spirite.DAL.SQLServer\bin\Debug\Spirite.DAL.SQLServer.pdb
+E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Spirite.DAL.SQLServer\obj\Debug\Spirite.DAL.SQLServer.dll
+E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Spirite.DAL.SQLServer\obj\Debug\Spirite.DAL.SQLServer.pdb

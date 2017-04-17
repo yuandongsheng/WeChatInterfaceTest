@@ -1,0 +1,7 @@
+E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Spirite.Common.DBUtility\bin\Debug\Spirite.Common.DBUtility.dll
+E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Spirite.Common.DBUtility\bin\Debug\Spirite.Common.DBUtility.pdb
+E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Spirite.Common.DBUtility\bin\Debug\Spirite.Common.Model.dll
+E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Spirite.Common.DBUtility\bin\Debug\Spirite.Common.Model.pdb
+E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Spirite.Common.DBUtility\obj\Debug\Spirite.Common.DBUtility.csprojResolveAssemblyReference.cache
+E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Spirite.Common.DBUtility\obj\Debug\Spirite.Common.DBUtility.dll
+E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Spirite.Common.DBUtility\obj\Debug\Spirite.Common.DBUtility.pdb

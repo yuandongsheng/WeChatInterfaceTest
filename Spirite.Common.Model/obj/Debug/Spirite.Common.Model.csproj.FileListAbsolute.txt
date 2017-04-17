@@ -1,0 +1,5 @@
+E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Spirite.Common.Model\bin\Debug\Spirite.Common.Model.dll
+E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Spirite.Common.Model\bin\Debug\Spirite.Common.Model.pdb
+E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Spirite.Common.Model\obj\Debug\Spirite.Common.Model.dll
+E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Spirite.Common.Model\obj\Debug\Spirite.Common.Model.pdb
+E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Spirite.Common.Model\obj\Debug\Spirite.Common.Model.csprojResolveAssemblyReference.cache

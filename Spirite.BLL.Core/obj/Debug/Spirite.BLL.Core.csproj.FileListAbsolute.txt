@@ -1,0 +1,4 @@
+E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Spirite.BLL.Core\bin\Debug\Spirite.BLL.Core.dll
+E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Spirite.BLL.Core\bin\Debug\Spirite.BLL.Core.pdb
+E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Spirite.BLL.Core\obj\Debug\Spirite.BLL.Core.dll
+E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Spirite.BLL.Core\obj\Debug\Spirite.BLL.Core.pdb

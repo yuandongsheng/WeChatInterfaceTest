@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Spirite.Common.DBUtility.Exceptions
+{
+    /// <summary>
+    /// 微信自定义异常基类
+    /// </summary>
+    public class WeixinException : ApplicationException
+    {
+        public WeixinException(string message)
+            : base(message, null)
+        {
+        }
+
+        public WeixinException(string message, Exception inner)
+            : base(message, inner)
+        {
+        }
+    }
+}

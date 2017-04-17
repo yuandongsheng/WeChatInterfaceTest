@@ -1,0 +1,53 @@
+﻿{
+    "button": [
+
+	        {
+            "name": "业务查询",
+            "sub_button": [
+                {
+                    "type": "view",
+                    "name": "在线查询",
+                    "url": "http://www.baidu.com/"
+                },
+                {
+                    "type": "view",
+                    "name": "法规公告",
+                    "url":"http://spirite.cn//WeChat/html/FGGG.html"
+                },
+                {
+                    "type": "view",
+                    "name": "在线查询",
+                    "url": "http://www.baidu.com/"
+                }
+            ]
+        },
+
+
+
+        {
+            "type": "view",
+            "name": "报关大厅",
+            "url": "http://www.baidu.com/"
+        },
+        {
+            "name": "业务咨询",
+            "sub_button": [
+                {
+                    "type": "view",
+                    "name": "分运申报",
+                    "url": "http://www.baidu.com/"
+                },
+                {
+                    "type": "view",
+                    "name": "我要留言",
+                    "url": "http://www.baidu.com/"
+                },
+                {
+                    "type": "view",
+                    "name": "通知公告",
+                    "url": "http://www.baidu.com/"
+                }
+            ]
+        }
+    ]
+}

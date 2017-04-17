@@ -1,0 +1,94 @@
+﻿{
+    "button": [
+        {
+            "name": "我的账户",
+            "sub_button": [
+                {
+                    "type": "view",
+                    "name": "查公积金账号",
+                    "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx4876eec0f93101c7&redirect_uri=http://120.77.149.245/Wechat/Index.aspx&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect"
+                },
+                {
+                    "type": "view",
+                    "name": "网上业务协议",
+                    "url": "http://www.baidu.com/"
+                },
+                {
+                    "type": "view",
+                    "name": "公积金账户",
+                    "url": "http://www.baidu.com/"
+                },
+                {
+                    "type": "view",
+                    "name": "贷款账户",
+                    "url": "http://www.baidu.com/"
+                },
+                {
+                    "type": "view",
+                    "name": "用户注册",
+                    "url": "http://www.baidu.com/"
+                }
+            ]
+        },
+        {
+            "name": "政策业务",
+            "sub_button": [
+                {
+                    "type": "view",
+                    "name": "新闻广告",
+                    "url": "http://www.baidu.com/"
+                },
+                {
+                    "type": "view",
+                    "name": "政策法规",
+                    "url": "http://www.baidu.com/"
+                },
+                {
+                    "type": "view",
+                    "name": "业务指南",
+                    "url": "http://www.baidu.com/"
+                },
+                {
+                    "type": "view",
+                    "name": "家家小故事",
+                    "url": "http://www.baidu.com/"
+                },
+                {
+                    "type": "view",
+                    "name": "图解公积金",
+                    "url": "http://www.baidu.com/"
+                }
+            ]
+        },
+        {
+            "name": "便民工具",
+            "sub_button": [
+                {
+                    "type": "view",
+                    "name": "业务网点",
+                    "url": "http://www.baidu.com/"
+                },
+                {
+                    "type": "view",
+                    "name": "网点排队",
+                    "url": "http://www.baidu.com/"
+                },
+                {
+                    "type": "view",
+                    "name": "缴存计算",
+                    "url": "http://www.baidu.com/"
+                },
+                {
+                    "type": "view",
+                    "name": "贷款计算",
+                    "url": "http://www.baidu.com/"
+                },
+                {
+                    "type": "view",
+                    "name": "短信服务",
+                    "url": "http://www.baidu.com/"
+                }
+            ]
+        }
+    ]
+}

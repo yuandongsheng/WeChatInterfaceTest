@@ -1,0 +1,13 @@
+E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Test\bin\Debug\Test.exe.config
+E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Test\obj\Debug\Test.Form1.resources
+E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Test\obj\Debug\Test.Properties.Resources.resources
+E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Test\obj\Debug\Test.csproj.GenerateResource.Cache
+E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Test\bin\Debug\Test.exe
+E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Test\bin\Debug\Test.pdb
+E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Test\bin\Debug\Spirite.Common.DBUtility.dll
+E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Test\bin\Debug\Spirite.Common.Model.dll
+E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Test\bin\Debug\Spirite.Common.DBUtility.pdb
+E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Test\bin\Debug\Spirite.Common.Model.pdb
+E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Test\obj\Debug\Test.exe
+E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Test\obj\Debug\Test.pdb
