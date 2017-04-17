@@ -41,7 +41,7 @@ namespace Test
 
             #endregion
 
-            AccessTokenResultModel access_Token = new AccessTokenResultModel() { access_token = "vW2r1qoIscUaybSMGZgpYxUH0D7R4gaH9798FElrS5UwXdYRjgGV7SrrPbsKZ9kXyhAlT6YVxWmgLpRGlRAhQIokVKCwfCRsFxO2SCuokSMhlRCvJ6Yp8L8TxZK4j6hhBPGiAGAIWN", expires_in = 7200 };
+            AccessTokenResultModel access_Token = new AccessTokenResultModel() { access_token = "Ag2tR1MK2n0FsdoZIzCzT9RbwCCWR6R4xy9Pq3qeXAUwXndwb9qZH1mESEEGuEEgfkwOs-gecpaDtmGEDpr6n9NNdF98A-KrKlaho95_Il5d6CPEn8zalPUjzZqk8xFAOSBjABAZDM", expires_in = 7200 };
 
             #region 2、获取微信服务器IP地址
 
@@ -65,11 +65,10 @@ namespace Test
 
             #region 4.1、自定义菜单创建接口
 
-            string createMenuStr = GetJsonStr(@"json\MunuJosn2.json");
-            string createMenuURL = string.Format("https://api.weixin.qq.com/cgi-bin/menu/create?access_token={0}", access_Token.access_token);
-            string createMenuResult = HttpPost(createMenuURL, createMenuStr);
+            //string createMenuStr = GetJsonStr(@"json\MunuJosn2.json");
+            //string createMenuURL = string.Format("https://api.weixin.qq.com/cgi-bin/menu/create?access_token={0}", access_Token.access_token);
+            //string createMenuResult = HttpPost(createMenuURL, createMenuStr);
 
-            return;
             #endregion
 
             #region 4.2、自定义菜单查询接口
@@ -85,15 +84,163 @@ namespace Test
             //string delMenuStr = HttpGet(delMenuURL);
 
             #endregion
+
+            #region 4.4、个性化菜单接口
+
+            //string individuationMenuStr = GetJsonStr(@"json\individuationMenuStr.json");
+            //string individuationMenuURL = string.Format("https://api.weixin.qq.com/cgi-bin/menu/addconditional?access_token={0}", access_Token.access_token);
+            //string delMenuStr = HttpPost(individuationMenuURL, individuationMenuStr);
+
+            #endregion
             
 
             #endregion
 
-            string deptURL = string.Format("https://api.weixin.qq.com/cgi-bin/message/template/send?access_token={0}", access_Token.access_token);
-            string deptStr = GetJsonStr(@"json\pushInfo.json");
-            string re = HttpPost(deptURL, deptStr);
+            #region 5、用户管理
+
+            #region 5.1、用户分组管理
+
+            #region 5.1.1、创建分组
+
+            //string createGroupStr = GetJsonStr(@"json\GroupStr.json");
+            //string createGroupURL = string.Format("https://api.weixin.qq.com/cgi-bin/groups/create?access_token={0}", access_Token.access_token);
+            //string createGroupResult = HttpPost(createGroupURL, createGroupStr);
+
+            #endregion
+
+            #region 5.1.2、查询所有分组
+
+            //string getGroupURL = string.Format("https://api.weixin.qq.com/cgi-bin/groups/get?access_token={0}", access_Token.access_token);
+            //string getGroupResult = HttpGet(getGroupURL);
+
+            #endregion
+
+            #region 5.1.3、查询用户所在分组
+
+            //string userOpenID = GetJsonStr(@"json\UserInGroup.json");
+            //string getUserGroupURL = string.Format("https://api.weixin.qq.com/cgi-bin/groups/getid?access_token={0}", access_Token.access_token);
+            //string getGroupResult = HttpPost(getUserGroupURL, userOpenID);
+
+            #endregion
+
+            #region 5.1.4、修改分组名
+
+            //string updateUserGroupStr = GetJsonStr(@"json\UpdateUserGroup.json");
+            //string updateUserGroupURL = string.Format("https://api.weixin.qq.com/cgi-bin/groups/update?access_token={0}", access_Token.access_token);
+            //string getGroupResult = HttpPost(updateUserGroupURL, updateUserGroupStr);
+
+            #endregion
+
+            #region 5.1.5、移动用户分组
+
+            //string moveUserGroupStr = GetJsonStr(@"json\MoveUserGroup.json");
+            //string moveUserGroupURL = string.Format("https://api.weixin.qq.com/cgi-bin/groups/members/update?access_token={0}", access_Token.access_token);
+            //string moveUserGroupResult = HttpPost(moveUserGroupURL, moveUserGroupStr);
+
+            #endregion
+
+            #region 5.1.6、批量移动用户分组
+
+            //string moveUserListGroupStr = GetJsonStr(@"json\MoveUserListGroup.json");
+            //string moveUserLsitGroupURL = string.Format("https://api.weixin.qq.com/cgi-bin/groups/members/batchupdate?access_token={0}", access_Token.access_token);
+            //string moveUserListGroupResult = HttpPost(moveUserLsitGroupURL, moveUserListGroupStr);
+
+            #endregion
+
+            #region 5.1.7、删除分组
+
+            //string deleteGroupStr = GetJsonStr(@"json\DeleteGroup.json");
+            //string deleteGroupURL = string.Format("https://api.weixin.qq.com/cgi-bin/groups/delete?access_token={0}", access_Token.access_token);
+            //string deleteGroupResult = HttpPost(deleteGroupURL, deleteGroupStr);
+
+            #endregion
+
+            #endregion
+
+            #region 5.2、设置备注名
+
+            //string setBZStr = GetJsonStr(@"json\BZInfo.json");
+            //string setBZURL = string.Format("https://api.weixin.qq.com/cgi-bin/user/info/updateremark?access_token={0}", access_Token.access_token);
+            //string setBZResult = HttpPost(setBZURL, setBZStr);
+
+            #endregion
+
+            #region 5.3、获取用户基本信息(UnionID机制)
+
+            #region 5.3.1、获取用户基本信息（包括UnionID机制）
+
+            //string openid = string.Empty;
+            //string getUserInfoURL = string.Format("https://api.weixin.qq.com/cgi-bin/user/info?access_token={0}&openid={1}&lang=zh_CN", access_Token.access_token, openid);
+            //string getUserInfoResult = HttpGet(getUserInfoURL);
+
+            #endregion
+
+            #region 5.3.2、批量获取用户基本信息
+
+            //string getUserListInfoStr = GetJsonStr(@"json\GetUserInfo.json");
+            //string getUserListInfoURL = string.Format("https://api.weixin.qq.com/cgi-bin/user/info/batchget?access_token={0}", access_Token.access_token);
+            //string getUserListInfoResult = HttpPost(getUserListInfoURL, getUserListInfoStr);
+
+            #endregion
+
+            #endregion
+
+            #region 5.4、获取用户列表
+
+            //string nextOpenID = string.Empty;//第一个拉取的OPENID，不填默认从头开始拉取
+            //string getUserListURL = string.Format("https://api.weixin.qq.com/cgi-bin/user/get?access_token={0}&next_openid={1}", access_Token.access_token, nextOpenID);
+            //string getUserListInfoResult = HttpGet(getUserListURL);
+
+            #endregion
 
             return;
+            #endregion
+
+            #region 6、帐号管理
+
+            #region 6.1、生成带参数的二维码
+
+            #region 6.1.1、临时二维码ticket
+
+            //string linQRCodeStr = GetJsonStr(@"json\QRCode.json");
+            //string linQRCodeURL = string.Format("https://api.weixin.qq.com/cgi-bin/qrcode/create?access_token={0}", access_Token.access_token);
+            //string linQRCodeResult = HttpPost(linQRCodeURL, linQRCodeStr);
+
+            #endregion
+
+            #region 6.1.2、永久二维码ticket
+
+            //POST数据例子：{"action_name": "QR_LIMIT_SCENE", "action_info": {"scene": {"scene_id": 123}}}
+            //或者也可以使用以下POST数据创建字符串形式的二维码参数：
+            //{"action_name": "QR_LIMIT_STR_SCENE", "action_info": {"scene": {"scene_str": "123"}}}
+
+            string yongQRCodeStr = GetJsonStr(@"json\yongQRCodeURLQRCode.json");
+            string yongQRCodeURL = string.Format("https://api.weixin.qq.com/cgi-bin/qrcode/create?access_token={0}", access_Token.access_token);
+            string yongQRCodeResult = HttpPost(yongQRCodeURL, yongQRCodeStr);
+
+            #endregion
+
+            #region 6.1.3、通过ticket换取二维码
+
+            //string ticket = string.Empty;//二维码ticket
+            //string ticketURL = string.Format("https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket={0}", ticket);
+            //string ticketResult = HttpGet(ticketURL);
+
+            #endregion
+
+            #endregion
+
+            #region 6.2、长链接转短链接接口
+
+            #endregion
+
+            #endregion
+
+            //string deptURL = string.Format("https://api.weixin.qq.com/cgi-bin/message/template/send?access_token={0}", access_Token.access_token);
+            //string deptStr = GetJsonStr(@"json\pushInfo.json");
+            //string re = HttpPost(deptURL, deptStr);
+
+            //return;
 
 
 
