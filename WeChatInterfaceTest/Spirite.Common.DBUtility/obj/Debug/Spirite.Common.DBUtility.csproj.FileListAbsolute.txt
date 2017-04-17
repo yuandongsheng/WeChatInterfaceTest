@@ -12,3 +12,10 @@ D:\GitHubRepos\WeChatInterfaceTest\WeChatInterfaceTest\Spirite.Common.DBUtility\
 D:\GitHubRepos\WeChatInterfaceTest\WeChatInterfaceTest\Spirite.Common.DBUtility\obj\Debug\Spirite.Common.DBUtility.csprojResolveAssemblyReference.cache
 D:\GitHubRepos\WeChatInterfaceTest\WeChatInterfaceTest\Spirite.Common.DBUtility\obj\Debug\Spirite.Common.DBUtility.dll
 D:\GitHubRepos\WeChatInterfaceTest\WeChatInterfaceTest\Spirite.Common.DBUtility\obj\Debug\Spirite.Common.DBUtility.pdb
+C:\SoftWare\Projects\Repositories\WeChatInterfaceTest\WeChatInterfaceTest\WeChatInterfaceTest\Spirite.Common.DBUtility\bin\Debug\Spirite.Common.DBUtility.dll
+C:\SoftWare\Projects\Repositories\WeChatInterfaceTest\WeChatInterfaceTest\WeChatInterfaceTest\Spirite.Common.DBUtility\bin\Debug\Spirite.Common.DBUtility.pdb
+C:\SoftWare\Projects\Repositories\WeChatInterfaceTest\WeChatInterfaceTest\WeChatInterfaceTest\Spirite.Common.DBUtility\bin\Debug\Spirite.Common.Model.dll
+C:\SoftWare\Projects\Repositories\WeChatInterfaceTest\WeChatInterfaceTest\WeChatInterfaceTest\Spirite.Common.DBUtility\bin\Debug\Spirite.Common.Model.pdb
+C:\SoftWare\Projects\Repositories\WeChatInterfaceTest\WeChatInterfaceTest\WeChatInterfaceTest\Spirite.Common.DBUtility\obj\Debug\Spirite.Common.DBUtility.csprojResolveAssemblyReference.cache
+C:\SoftWare\Projects\Repositories\WeChatInterfaceTest\WeChatInterfaceTest\WeChatInterfaceTest\Spirite.Common.DBUtility\obj\Debug\Spirite.Common.DBUtility.dll
+C:\SoftWare\Projects\Repositories\WeChatInterfaceTest\WeChatInterfaceTest\WeChatInterfaceTest\Spirite.Common.DBUtility\obj\Debug\Spirite.Common.DBUtility.pdb

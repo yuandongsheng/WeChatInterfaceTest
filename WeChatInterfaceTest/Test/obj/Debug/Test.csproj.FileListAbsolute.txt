@@ -24,3 +24,16 @@ D:\GitHubRepos\WeChatInterfaceTest\WeChatInterfaceTest\Test\obj\Debug\Test.cspro
 D:\GitHubRepos\WeChatInterfaceTest\WeChatInterfaceTest\Test\obj\Debug\Test.Form1.resources
 D:\GitHubRepos\WeChatInterfaceTest\WeChatInterfaceTest\Test\obj\Debug\Test.Properties.Resources.resources
 D:\GitHubRepos\WeChatInterfaceTest\WeChatInterfaceTest\Test\obj\Debug\Test.csproj.GenerateResource.Cache
+C:\SoftWare\Projects\Repositories\WeChatInterfaceTest\WeChatInterfaceTest\WeChatInterfaceTest\Test\bin\Debug\Test.exe.config
+C:\SoftWare\Projects\Repositories\WeChatInterfaceTest\WeChatInterfaceTest\WeChatInterfaceTest\Test\obj\Debug\Test.exe
+C:\SoftWare\Projects\Repositories\WeChatInterfaceTest\WeChatInterfaceTest\WeChatInterfaceTest\Test\obj\Debug\Test.pdb
+C:\SoftWare\Projects\Repositories\WeChatInterfaceTest\WeChatInterfaceTest\WeChatInterfaceTest\Test\bin\Debug\Test.exe
+C:\SoftWare\Projects\Repositories\WeChatInterfaceTest\WeChatInterfaceTest\WeChatInterfaceTest\Test\bin\Debug\Test.pdb
+C:\SoftWare\Projects\Repositories\WeChatInterfaceTest\WeChatInterfaceTest\WeChatInterfaceTest\Test\bin\Debug\Spirite.Common.DBUtility.dll
+C:\SoftWare\Projects\Repositories\WeChatInterfaceTest\WeChatInterfaceTest\WeChatInterfaceTest\Test\bin\Debug\Spirite.Common.Model.dll
+C:\SoftWare\Projects\Repositories\WeChatInterfaceTest\WeChatInterfaceTest\WeChatInterfaceTest\Test\bin\Debug\Spirite.Common.DBUtility.pdb
+C:\SoftWare\Projects\Repositories\WeChatInterfaceTest\WeChatInterfaceTest\WeChatInterfaceTest\Test\bin\Debug\Spirite.Common.Model.pdb
+C:\SoftWare\Projects\Repositories\WeChatInterfaceTest\WeChatInterfaceTest\WeChatInterfaceTest\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\SoftWare\Projects\Repositories\WeChatInterfaceTest\WeChatInterfaceTest\WeChatInterfaceTest\Test\obj\Debug\Test.Form1.resources
+C:\SoftWare\Projects\Repositories\WeChatInterfaceTest\WeChatInterfaceTest\WeChatInterfaceTest\Test\obj\Debug\Test.Properties.Resources.resources
+C:\SoftWare\Projects\Repositories\WeChatInterfaceTest\WeChatInterfaceTest\WeChatInterfaceTest\Test\obj\Debug\Test.csproj.GenerateResource.Cache
