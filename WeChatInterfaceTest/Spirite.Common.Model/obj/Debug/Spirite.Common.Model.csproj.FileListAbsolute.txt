@@ -3,3 +3,8 @@ E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Spirite.Common
 E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Spirite.Common.Model\obj\Debug\Spirite.Common.Model.dll
 E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Spirite.Common.Model\obj\Debug\Spirite.Common.Model.pdb
 E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Spirite.Common.Model\obj\Debug\Spirite.Common.Model.csprojResolveAssemblyReference.cache
+D:\GitHubRepos\WeChatInterfaceTest\WeChatInterfaceTest\Spirite.Common.Model\bin\Debug\Spirite.Common.Model.dll
+D:\GitHubRepos\WeChatInterfaceTest\WeChatInterfaceTest\Spirite.Common.Model\bin\Debug\Spirite.Common.Model.pdb
+D:\GitHubRepos\WeChatInterfaceTest\WeChatInterfaceTest\Spirite.Common.Model\obj\Debug\Spirite.Common.Model.csprojResolveAssemblyReference.cache
+D:\GitHubRepos\WeChatInterfaceTest\WeChatInterfaceTest\Spirite.Common.Model\obj\Debug\Spirite.Common.Model.dll
+D:\GitHubRepos\WeChatInterfaceTest\WeChatInterfaceTest\Spirite.Common.Model\obj\Debug\Spirite.Common.Model.pdb

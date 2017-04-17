@@ -29,57 +29,65 @@ namespace Test
         {
 
 
-
-
-
-            #region 企业号
-
-            //string CorpID = "wx764d7364ece9085b";
-            //string Secret = "tRFUj2xCb_KeAwpdY9AYKKBFmfNQ47uDhWx8TRfiWFr6bS5nx-_qiy8YJkIThm3Z";
-
-            //string tokenUrl = string.Format("https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid={0}&corpsecret={1}", CorpID, Secret);
-
-            //AccessTokenResultModel tokenStr = Get.GetJson<AccessTokenResultModel>(tokenUrl);
-
-            //创建部门
-            //string deptURL = string.Format("https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token={0}", tokenStr.access_token);
-            //string deptStr = GetJsonStr(@"json\newdept.json");
-            //string re = HttpPost(deptURL, deptStr);
-
-            //获取所有部门
-            //string deptAllURL = string.Format("https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token={0}&id=1", tokenStr.access_token);
-            //string deptAllStr = HttpGet(deptAllURL);
-
-            //更新部门
-            //string deptUpateURL = string.Format("https://qyapi.weixin.qq.com/cgi-bin/department/update?access_token={0}", tokenStr.access_token);
-            //string deptUpateStr = GetJsonStr(@"json\updatedept.json");
-            //string res44 = HttpPost(deptUpateURL, deptUpateStr);
-            //return;
-
-
-            #endregion
-
-
-
-
-
-
-
-
-
             #region 服务号
 
-            //InfoWriteHelper.Write("");
 
-
-            //string appID = ConfigurationManager.AppSettings["appID"];
-            //string appsecret = ConfigurationManager.AppSettings["appsecret"];
-            string appID = "wxd926b0ede374202c";
-            string appsecret = ""
 
             #region 1、获取access_token
 
-            var access_Token = CommonApi.GetToken(appID, appsecret);
+            //string appID = ConfigurationManager.AppSettings["appID"];
+            //string appsecret = ConfigurationManager.AppSettings["appsecret"];
+            //var access_Token = CommonApi.GetToken(appID, appsecret);
+
+            #endregion
+
+            AccessTokenResultModel access_Token = new AccessTokenResultModel() { access_token = "vW2r1qoIscUaybSMGZgpYxUH0D7R4gaH9798FElrS5UwXdYRjgGV7SrrPbsKZ9kXyhAlT6YVxWmgLpRGlRAhQIokVKCwfCRsFxO2SCuokSMhlRCvJ6Yp8L8TxZK4j6hhBPGiAGAIWN", expires_in = 7200 };
+
+            #region 2、获取微信服务器IP地址
+
+            //string IPListURL = string.Format("https://api.weixin.qq.com/cgi-bin/getcallbackip?access_token={0}", access_Token.access_token);
+            //var IPListResult = HttpGet(IPListURL);
+
+            #endregion
+
+            #region 3、报警排查指引
+
+            #region 3.1、使用公众平台接口，获取到微信回调服务器的IP，https://api.weixin.qq.com/cgi-bin/getcallbackip?access_token=ACCESS_TOKEN
+
+            //string getCallBackIPURL = string.Format("https://api.weixin.qq.com/cgi-bin/getcallbackip?access_token={0}", access_Token.access_token);
+            //var callBackIP = HttpGet(getCallBackIPURL);
+
+            #endregion
+
+            #endregion
+
+            #region 4、自定义菜单
+
+            #region 4.1、自定义菜单创建接口
+
+            string createMenuStr = GetJsonStr(@"json\MunuJosn2.json");
+            string createMenuURL = string.Format("https://api.weixin.qq.com/cgi-bin/menu/create?access_token={0}", access_Token.access_token);
+            string createMenuResult = HttpPost(createMenuURL, createMenuStr);
+
+            return;
+            #endregion
+
+            #region 4.2、自定义菜单查询接口
+
+            //string getMenuURL = string.Format("https://api.weixin.qq.com/cgi-bin/menu/get?access_token={0}", access_Token.access_token);
+            //string getMenuStr = HttpGet(getMenuURL);
+    
+            #endregion
+
+            #region 4.3、自定义菜单删除接口
+
+            //string delMenuURL = string.Format("https://api.weixin.qq.com/cgi-bin/menu/delete?access_token={0}", access_Token.access_token);
+            //string delMenuStr = HttpGet(delMenuURL);
+
+            #endregion
+            
+
+            #endregion
 
             string deptURL = string.Format("https://api.weixin.qq.com/cgi-bin/message/template/send?access_token={0}", access_Token.access_token);
             string deptStr = GetJsonStr(@"json\pushInfo.json");
@@ -88,7 +96,7 @@ namespace Test
             return;
 
 
-            #endregion
+
 
             #region 2、创建菜单
             string str = GetJsonStr(@"json\MunuJosn2.json");
@@ -96,7 +104,6 @@ namespace Test
 
             #endregion
 
-            return;
 
             string url = string.Format("https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx4876eec0f93101c7&redirect_uri=http://106.14.29.73/Wechat/Index.aspx&response_type={0}&scope=snsapi_base&state=1#wechat_redirect", access_Token);
             //https://open.weixin.qq.com/connect/oauth2/authorize?appid=APPID&redirect_uri=REDIRECT_URI&response_type=code&scope=SCOPE&state=STATE#wechat_redirect
@@ -205,13 +212,41 @@ namespace Test
             #endregion
 
 
+            #region 企业号
+
+            //string CorpID = "wx764d7364ece9085b";
+            //string Secret = "tRFUj2xCb_KeAwpdY9AYKKBFmfNQ47uDhWx8TRfiWFr6bS5nx-_qiy8YJkIThm3Z";
+
+            //string tokenUrl = string.Format("https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid={0}&corpsecret={1}", CorpID, Secret);
+
+            //AccessTokenResultModel tokenStr = Get.GetJson<AccessTokenResultModel>(tokenUrl);
+
+            //创建部门
+            //string deptURL = string.Format("https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token={0}", tokenStr.access_token);
+            //string deptStr = GetJsonStr(@"json\newdept.json");
+            //string re = HttpPost(deptURL, deptStr);
+
+            //获取所有部门
+            //string deptAllURL = string.Format("https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token={0}&id=1", tokenStr.access_token);
+            //string deptAllStr = HttpGet(deptAllURL);
+
+            //更新部门
+            //string deptUpateURL = string.Format("https://qyapi.weixin.qq.com/cgi-bin/department/update?access_token={0}", tokenStr.access_token);
+            //string deptUpateStr = GetJsonStr(@"json\updatedept.json");
+            //string res44 = HttpPost(deptUpateURL, deptUpateStr);
+            //return;
+
+
+            #endregion
         }
 
-        private bool CreateMenu()
-        {
-            var urlFormat = "https://api.weixin.qq.com/cgi-bin/menu/create?access_token={0}";
-            return false;
-        }
+        //private bool CreateMenu()
+        //{
+        //    var urlFormat = "https://api.weixin.qq.com/cgi-bin/menu/create?access_token={0}";
+        //    return false;
+        //}
+
+        #region 获取token
 
         /// <summary>
         /// 获取token
@@ -228,6 +263,8 @@ namespace Test
             return model;
         }
 
+        #endregion
+
         #region 菜单管理
 
         /// <summary>
@@ -236,8 +273,6 @@ namespace Test
         /// <param name="token"></param>
         public void CreateMenu(string token, string jsonPath)
         {
-            //StreamReader stream = new StreamReader(jsonPath);
-            //string munuJson = stream.ReadToEnd();
             string result = HttpPost("https://api.weixin.qq.com/cgi-bin/menu/create?access_token=" + token, jsonPath);
         }
 
@@ -384,6 +419,26 @@ namespace Test
 
         #endregion
 
+        #region Model模型
+
+        /// <summary>
+        /// token模型
+        /// </summary>
+        public class AccessTokenResultModel
+        {
+            /// <summary>
+            /// 获取到的凭证
+            /// </summary>
+            public string access_token { get; set; }
+
+            /// <summary>
+            /// 凭证有效时间，单位：秒
+            /// </summary>
+            public int expires_in { get; set; }
+        }
+
+        #endregion
+
         #region 公共方法
 
         /// <summary>
@@ -450,22 +505,6 @@ namespace Test
                 string err = ex.Message;
                 return string.Empty;
             }
-        }
-
-        /// <summary>
-        /// token模型
-        /// </summary>
-        public class AccessTokenResultModel
-        {
-            /// <summary>
-            /// 获取到的凭证
-            /// </summary>
-            public string access_token { get; set; }
-
-            /// <summary>
-            /// 凭证有效时间，单位：秒
-            /// </summary>
-            public int expires_in { get; set; }
         }
 
         #endregion

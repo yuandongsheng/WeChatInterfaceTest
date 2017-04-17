@@ -11,3 +11,16 @@ E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Test\bin\Debug
 E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Test\bin\Debug\Spirite.Common.Model.pdb
 E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Test\obj\Debug\Test.exe
 E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\Test\obj\Debug\Test.pdb
+D:\GitHubRepos\WeChatInterfaceTest\WeChatInterfaceTest\Test\bin\Debug\Test.exe.config
+D:\GitHubRepos\WeChatInterfaceTest\WeChatInterfaceTest\Test\obj\Debug\Test.exe
+D:\GitHubRepos\WeChatInterfaceTest\WeChatInterfaceTest\Test\obj\Debug\Test.pdb
+D:\GitHubRepos\WeChatInterfaceTest\WeChatInterfaceTest\Test\bin\Debug\Test.exe
+D:\GitHubRepos\WeChatInterfaceTest\WeChatInterfaceTest\Test\bin\Debug\Test.pdb
+D:\GitHubRepos\WeChatInterfaceTest\WeChatInterfaceTest\Test\bin\Debug\Spirite.Common.DBUtility.dll
+D:\GitHubRepos\WeChatInterfaceTest\WeChatInterfaceTest\Test\bin\Debug\Spirite.Common.Model.dll
+D:\GitHubRepos\WeChatInterfaceTest\WeChatInterfaceTest\Test\bin\Debug\Spirite.Common.DBUtility.pdb
+D:\GitHubRepos\WeChatInterfaceTest\WeChatInterfaceTest\Test\bin\Debug\Spirite.Common.Model.pdb
+D:\GitHubRepos\WeChatInterfaceTest\WeChatInterfaceTest\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+D:\GitHubRepos\WeChatInterfaceTest\WeChatInterfaceTest\Test\obj\Debug\Test.Form1.resources
+D:\GitHubRepos\WeChatInterfaceTest\WeChatInterfaceTest\Test\obj\Debug\Test.Properties.Resources.resources
+D:\GitHubRepos\WeChatInterfaceTest\WeChatInterfaceTest\Test\obj\Debug\Test.csproj.GenerateResource.Cache

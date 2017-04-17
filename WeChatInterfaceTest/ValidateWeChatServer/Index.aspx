@@ -10,7 +10,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    验证微信服务器
+    验证微信服务器 
     </div>
     </form>
 </body>
