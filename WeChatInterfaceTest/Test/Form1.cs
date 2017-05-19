@@ -15,6 +15,7 @@ using System.Windows.Forms;
 using System.Security.Cryptography;
 using System.Net;
 using System.Web.Script.Serialization;
+using Spirite.Common.Model;
 
 namespace Test
 {
@@ -31,8 +32,6 @@ namespace Test
 
             #region 服务号
 
-
-
             #region 1、获取access_token
 
             //string appID = ConfigurationManager.AppSettings["appID"];
@@ -41,7 +40,7 @@ namespace Test
 
             #endregion
 
-            AccessTokenResultModel access_Token = new AccessTokenResultModel() { access_token = "Ag2tR1MK2n0FsdoZIzCzT9RbwCCWR6R4xy9Pq3qeXAUwXndwb9qZH1mESEEGuEEgfkwOs-gecpaDtmGEDpr6n9NNdF98A-KrKlaho95_Il5d6CPEn8zalPUjzZqk8xFAOSBjABAZDM", expires_in = 7200 };
+            //AccessTokenResultModel access_Token = new AccessTokenResultModel() { access_token = "Ag2tR1MK2n0FsdoZIzCzT9RbwCCWR6R4xy9Pq3qeXAUwXndwb9qZH1mESEEGuEEgfkwOs-gecpaDtmGEDpr6n9NNdF98A-KrKlaho95_Il5d6CPEn8zalPUjzZqk8xFAOSBjABAZDM", expires_in = 7200 };
 
             #region 2、获取微信服务器IP地址
 
@@ -75,7 +74,7 @@ namespace Test
 
             //string getMenuURL = string.Format("https://api.weixin.qq.com/cgi-bin/menu/get?access_token={0}", access_Token.access_token);
             //string getMenuStr = HttpGet(getMenuURL);
-    
+
             #endregion
 
             #region 4.3、自定义菜单删除接口
@@ -92,8 +91,8 @@ namespace Test
             //string delMenuStr = HttpPost(individuationMenuURL, individuationMenuStr);
 
             #endregion
-            
-               
+
+
             #endregion
 
             #region 5、帐号管理
@@ -193,9 +192,8 @@ namespace Test
 
             #endregion
 
-            return;
             #endregion
-             
+
             #region 6、帐号管理
 
             #region 6.1、生成带参数的二维码
@@ -214,9 +212,9 @@ namespace Test
             //或者也可以使用以下POST数据创建字符串形式的二维码参数：
             //{"action_name": "QR_LIMIT_STR_SCENE", "action_info": {"scene": {"scene_str": "123"}}}
 
-            string yongQRCodeStr = GetJsonStr(@"json\yongQRCodeURLQRCode.json");
-            string yongQRCodeURL = string.Format("https://api.weixin.qq.com/cgi-bin/qrcode/create?access_token={0}", access_Token.access_token);
-            string yongQRCodeResult = HttpPost(yongQRCodeURL, yongQRCodeStr);
+            //string yongQRCodeStr = GetJsonStr(@"json\yongQRCodeURLQRCode.json");
+            //string yongQRCodeURL = string.Format("https://api.weixin.qq.com/cgi-bin/qrcode/create?access_token={0}", access_Token.access_token);
+            //string yongQRCodeResult = HttpPost(yongQRCodeURL, yongQRCodeStr);
 
             #endregion
 
@@ -236,6 +234,8 @@ namespace Test
 
             #endregion
 
+            #region 待整理
+
             //string deptURL = string.Format("https://api.weixin.qq.com/cgi-bin/message/template/send?access_token={0}", access_Token.access_token);
             //string deptStr = GetJsonStr(@"json\pushInfo.json");
             //string re = HttpPost(deptURL, deptStr);
@@ -246,28 +246,28 @@ namespace Test
 
 
             #region 2、创建菜单
-            string str = GetJsonStr(@"json\MunuJosn2.json");
-            CreateMenu(access_Token.access_token, str);
+            //string str = GetJsonStr(@"json\MunuJosn2.json");
+            //CreateMenu(access_Token.access_token, str);
 
             #endregion
 
 
-            string url = string.Format("https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx4876eec0f93101c7&redirect_uri=http://106.14.29.73/Wechat/Index.aspx&response_type={0}&scope=snsapi_base&state=1#wechat_redirect", access_Token);
+            //string url = string.Format("https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx4876eec0f93101c7&redirect_uri=http://106.14.29.73/Wechat/Index.aspx&response_type={0}&scope=snsapi_base&state=1#wechat_redirect", access_Token);
             //https://open.weixin.qq.com/connect/oauth2/authorize?appid=APPID&redirect_uri=REDIRECT_URI&response_type=code&scope=SCOPE&state=STATE#wechat_redirect
 
 
 
-            string result = HttpGet(url);
-            InfoWriteHelper.Write(result);
+            //string result = HttpGet(url);
+            //InfoWriteHelper.Write(result);
 
-            url = string.Format("https://api.weixin.qq.com/sns/userinfo?access_token={0}&openid=oRHgwxLTwm5Uq8rvUkv0IN8IBEI0&lang=zh_CN", access_Token);
+            //url = string.Format("https://api.weixin.qq.com/sns/userinfo?access_token={0}&openid=oRHgwxLTwm5Uq8rvUkv0IN8IBEI0&lang=zh_CN", access_Token);
 
-            result = HttpGet(url);
-            InfoWriteHelper.Write(result);
+            //result = HttpGet(url);
+            //InfoWriteHelper.Write(result);
 
             //获取用户SingID
-            url = string.Format("https://api.weixin.qq.com/cgi-bin/user/get?access_token={0}&next_openid=", access_Token);
-            var useSingIDList = HttpGet(url);
+            //url = string.Format("https://api.weixin.qq.com/cgi-bin/user/get?access_token={0}&next_openid=", access_Token);
+            //var useSingIDList = HttpGet(url);
 
 
 
@@ -275,9 +275,9 @@ namespace Test
 
 
             ////2.获取微信服务器IP地址
-            var urlIPList = "https://api.weixin.qq.com/cgi-bin/getcallbackip?access_token={0}";
-            var urlFrom = string.Format(urlIPList, access_Token.access_token);
-            var weChatIPList = Spirite.Common.DBUtility.HttpUtility.RequestUtility.HttpGet(urlFrom, null);
+            //var urlIPList = "https://api.weixin.qq.com/cgi-bin/getcallbackip?access_token={0}";
+            //var urlFrom = string.Format(urlIPList, access_Token.access_token);
+            //var weChatIPList = Spirite.Common.DBUtility.HttpUtility.RequestUtility.HttpGet(urlFrom, null);
 
             ////3.修改菜单信息
             //url = "https://api.weixin.qq.com/cgi-bin/menu/create?access_token={0}";
@@ -353,20 +353,50 @@ namespace Test
             //长连接转短链接
             //ShorTurl(model.access_token);
 
-            //素材管理
-            //添加临时素材
+            #endregion
 
             #endregion
 
 
             #region 企业号
 
-            //string CorpID = "wx764d7364ece9085b";
-            //string Secret = "tRFUj2xCb_KeAwpdY9AYKKBFmfNQ47uDhWx8TRfiWFr6bS5nx-_qiy8YJkIThm3Z";
+            #region 1、获取AccessToken
+
+            string CorpID = ConfigurationManager.AppSettings["CorpID"];
+            string Secret = ConfigurationManager.AppSettings["Secret"];
 
             //string tokenUrl = string.Format("https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid={0}&corpsecret={1}", CorpID, Secret);
-
             //AccessTokenResultModel tokenStr = Get.GetJson<AccessTokenResultModel>(tokenUrl);
+
+            #endregion
+
+            AccessTokenResultModel tokenStr = new AccessTokenResultModel { access_token = "hawa-OY7KKKRMuBiqBgcQ-JK9Wq0-dwDMX1g-Fap8Ao9pad-s-PdS_NwIwq23GQT", expires_in = 7200 };
+
+            #region 2、身份验证
+
+            #region 2.1、OAuth验证接口
+
+            #region 2.1.1、企业获取code
+
+            string redirectURL = "http://spirite.cn/";
+            string getCodeURL = string.Format(@"https://open.weixin.qq.com/connect/oauth2/authorize?appid={0}&
+                                            redirect_uri={1}&response_type=code&scope={2}&agentid={3}&state=STATE#wechat_redirect", CorpID, redirectURL, ScopeTypeModel.snsapi_base, 8);
+            var resultCode = HttpGet(getCodeURL);
+
+           
+            #endregion
+
+            #region 2.1.1、根据code获取成员信息
+
+            string peopleCodeURL = string.Format("https://qyapi.weixin.qq.com/cgi-bin/user/getuserinfo?access_token={0}&code={1}", tokenStr.access_token, 8);
+            var peopleCodeResult = HttpGet(peopleCodeURL);
+
+            #endregion
+
+            #endregion
+
+            return;
+            #endregion
 
             //创建部门
             //string deptURL = string.Format("https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token={0}", tokenStr.access_token);
@@ -582,6 +612,11 @@ namespace Test
             /// 凭证有效时间，单位：秒
             /// </summary>
             public int expires_in { get; set; }
+        }
+
+        public enum ScopeTypeModel
+        {
+            snsapi_base, snsapi_userinfo
         }
 
         #endregion

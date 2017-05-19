@@ -2,3 +2,8 @@ E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\ValidateWeChat
 E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\ValidateWeChatServer\bin\ValidateWeChatServer.pdb
 E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\ValidateWeChatServer\obj\Debug\ValidateWeChatServer.dll
 E:\微信开发框架\微信框架_spirite\微信源代码\WeChat\ValidateWeChatServer\obj\Debug\ValidateWeChatServer.pdb
+D:\GitHubRepos\WeChatInterfaceTest\WeChatInterfaceTest\ValidateWeChatServer\bin\ValidateWeChatServer.dll.config
+D:\GitHubRepos\WeChatInterfaceTest\WeChatInterfaceTest\ValidateWeChatServer\bin\ValidateWeChatServer.dll
+D:\GitHubRepos\WeChatInterfaceTest\WeChatInterfaceTest\ValidateWeChatServer\bin\ValidateWeChatServer.pdb
+D:\GitHubRepos\WeChatInterfaceTest\WeChatInterfaceTest\ValidateWeChatServer\obj\Debug\ValidateWeChatServer.dll
+D:\GitHubRepos\WeChatInterfaceTest\WeChatInterfaceTest\ValidateWeChatServer\obj\Debug\ValidateWeChatServer.pdb
